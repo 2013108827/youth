@@ -52,9 +52,9 @@ function AutoRead() {
     return new Promise((resolve, reject) => {
       setTimeout(()=> {
        let url = {
-            url: `https://ios.baertt.com/v5/article/complete.json`,
+            url: `kandian.youth.cn/v5/article/complete.json`,
             headers: {
-            'User-Agent': 'KDApp/1.7.8 (iPhone; iOS 14.0; Scale/3.00)'
+            'User-Agent': 'okhttp/3.12.2'
             },
             body: articlebody
         };
